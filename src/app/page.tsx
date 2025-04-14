@@ -1,5 +1,6 @@
 import GetInvolved from "@/components/home/getinvolved";
 import Landing from "@/components/home/landing";
+import Partnering from "@/components/home/partnering";
 import Values from "@/components/home/values";
 import WhoWeAre from "@/components/home/whoweare";
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <WhoWeAre />
       <Values />
       <GetInvolved />
+      <Partnering />
     </div>
   );
 };
