@@ -7,7 +7,7 @@ const NotFound = () => {
     <div className="bg-bgPeach text-dau-primary-accent-100 flex min-h-screen flex-col items-center justify-center">
       <Image src={Bear} className="mb-6" alt="404 bear" />
       <p className="mb-4 text-6xl font-extrabold md:text-9xl">404</p>
-      <p className="mb-6 text-lg md:text-2xl">
+      <p className="mb-6 text-center text-lg md:text-2xl">
         Oops! The page you&apos;re looking for can&apos;t be found.
       </p>
       <Link
