@@ -321,7 +321,7 @@ Atomic CSS helped inspire TailwindCSS so learn to write inline styling when tran
 - **Example of Atomic CSS with Tailwind**
 
   ```html
-  <div class="text-center text-blue-500 bg-yellow-200 p-4 m-2">
+  <div class="m-2 bg-yellow-200 p-4 text-center text-blue-500">
     Atomic CSS Example
   </div>
   ```

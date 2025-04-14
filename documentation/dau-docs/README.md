@@ -1,6 +1,6 @@
 # Website
 
-This is past documentation of the Design at UCR website when it was built via docusaurus. The contents of this folder are defunct. 
+This is past documentation of the Design at UCR website when it was built via docusaurus. The contents of this folder are defunct.
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
