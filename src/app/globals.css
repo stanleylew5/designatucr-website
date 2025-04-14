@@ -3,3 +3,48 @@
 .rbc-header {
   background-color: #91bbe5;
 }
+
+@theme {
+  --color-bgPeach: #fffafa;
+  --color-bgSky: #dae0f4;
+  --color-bgLightSky: #95baff;
+  --color-darkPrimary: #1a1a1d;
+  --color-darkSecondary: #2d2d30;
+  --color-bgForest: #659379;
+  --color-bgMandy: #efb7a4;
+  --color-earth: #431d01;
+
+  --color-dv-primary-green-400: #175e4d;
+  --color-dv-primary-green-300: #0d755c;
+  --color-dv-primary-green-200: #4d8f7b;
+  --color-dv-primary-green-100: #c4e1e4;
+
+  --color-dau-primary-warm-400: #e74632;
+  --color-dau-primary-warm-300: #f96e46;
+  --color-dau-primary-warm-200: #ffb923;
+  --color-dau-primary-warm-100: #f9c846;
+
+  --color-dau-primary-cool-500: #0c5b37;
+  --color-dau-primary-cool-400: #64a587;
+  --color-dau-primary-cool-300: #85c4cb;
+  --color-dau-primary-cool-200: #5068a8;
+  --color-dau-primary-cool-100: #397bec;
+
+  --color-dau-primary-accent-500: #d45454;
+  --color-dau-primary-accent-400: #f88c99;
+  --color-dau-primary-accent-300: #e9d8c9;
+  --color-dau-primary-accent-200: #fdf9ed;
+  --color-dau-primary-accent-100: #121212;
+
+  --color-dau-secondary-warm-400: #f07167;
+  --color-dau-secondary-warm-300: #fbc193;
+  --color-dau-secondary-warm-200: #f9d678;
+  --color-dau-secondary-warm-100: #fcd8ca;
+  --color-dau-secondary-warm-50: #eeeeee;
+
+  --color-dau-secondary-400: #c4dbc1;
+  --color-dau-secondary-300: #b6ddda;
+  --color-dau-secondary-200: #91bbe5;
+  --color-dau-secondary-100: #ffe3e3;
+  --color-dau-secondary-50: #431d01;
+}
