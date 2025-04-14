@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="border-dau-primary-cool-100 bg-bgPeach sticky top-0 z-30 w-full border-b-4">
+    <div className="bg-bgPeach sticky top-0 z-30 w-full">
       <div className="flex items-center justify-between px-8 py-4">
         <Link
           href="/"
@@ -26,7 +26,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <div className="hidden space-x-16 md:flex">
+        <div className="mr-10 hidden space-x-16 md:flex">
           {navigations.map(({ name, link, target }, index) => (
             <Link
               key={index}
