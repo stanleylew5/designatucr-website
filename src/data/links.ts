@@ -6,7 +6,7 @@ import CalendarIcon from "@/public/social/calendar.svg";
 import EmailIcon from "@/public/social/email.svg";
 import FacebookIcon from "@/public/social/facebook.svg";
 
-export const links = [
+const links = [
   {
     href: "https://join.slack.com/t/designucr/shared_invite/zt-2xj8kwmno-70AftfRezUjjPjSNGcgI1Q",
     src: SlackIcon,
@@ -39,3 +39,4 @@ export const links = [
     alt: "Facebook Icon",
   },
 ];
+export default links;

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { links } from "@/data/links";
+import links from "@/data/links";
 import DAU from "@/public/icons/dau_circle.svg";
 // VP of SWE 2025-2026 -- Why is this stupid comment here below. perhaps it'll be useful one day
 /*
@@ -84,9 +84,9 @@ const Footer = () => {
         </div>
 
         <div className="mt-4 flex items-center justify-center space-x-4 sm:mt-0 sm:justify-end">
-          {links.map((link, index) => (
-            <Link key={index} href={link.href} target="_blank">
-              <Image src={link.src} alt={link.alt} width={32} height={32} />
+          {links.map(({ href, alt, src }, index) => (
+            <Link key={index} href={href} target="_blank">
+              <Image src={src} alt={alt} width={32} height={32} />
             </Link>
           ))}
         </div>
