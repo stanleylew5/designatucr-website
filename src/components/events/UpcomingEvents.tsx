@@ -1,6 +1,6 @@
 "use client";
 import { EventCardProps } from "./calendarcall";
-import Card from "./Card";
+import EventCard from "./eventcard";
 import { motion } from "motion/react";
 
 const Down = {
@@ -43,7 +43,7 @@ const UpcomingEvents = ({ events }: UpcomingEventsProps) => {
       ) : (
         <div className="grid w-10/12 grid-cols-1 flex-wrap justify-center gap-4 md:grid-cols-2">
           {events.map((event, index) => (
-            <Card
+            <EventCard
               key={index}
               date={event.date}
               month={event.month}
