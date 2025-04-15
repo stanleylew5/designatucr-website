@@ -5,6 +5,7 @@ interface BoardCardProps {
   position: string;
   img: StaticImageData;
 }
+
 const BoardCard = ({ name, position, img }: BoardCardProps) => {
   return (
     <div className="text-darkPrimary flex h-full flex-col items-center justify-start rounded-xl">
