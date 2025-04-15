@@ -5,7 +5,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { DayPicker } from "react-day-picker";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
-import { GoogleEventProps } from "@/components/events/CalendarCall";
+import { GoogleEventProps } from "@/components/events/calendarcall";
 import CalendarDay from "@/components/events/CalendarDay";
 import CalendarTop from "@/components/events/CalendarTop";
 

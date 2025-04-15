@@ -57,7 +57,11 @@ const Footer = () => {
     {
       title: "Get Involved",
       items: [
-        { name: "Apply", href: "https://forms.gle/6TNxvdXqkmjKKHsu9", target: "_blank" },
+        {
+          name: "Apply",
+          href: "https://forms.gle/6TNxvdXqkmjKKHsu9",
+          target: "_blank",
+        },
         { name: "Contact", href: "/contact", target: "_self" },
       ],
     },
@@ -76,7 +80,12 @@ const Footer = () => {
             <p className="mb-4 text-lg font-semibold">{section.title}</p>
             <div className="flex flex-col space-y-2">
               {section.items.map((item, idx) => (
-                <Link href={item.href} className="hover:underline" key={idx} target={item.target} >
+                <Link
+                  href={item.href}
+                  className="hover:underline"
+                  key={idx}
+                  target={item.target}
+                >
                   {item.name}
                 </Link>
               ))}

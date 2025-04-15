@@ -1,5 +1,5 @@
 "use client";
-import { EventCardProps } from "./CalendarCall";
+import { EventCardProps } from "./calendarcall";
 import Card from "./Card";
 import { motion } from "motion/react";
 

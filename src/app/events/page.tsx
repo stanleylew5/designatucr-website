@@ -1,4 +1,4 @@
-import CalendarCall from "@/components/events/CalendarCall";
+import CalendarCall from "@/components/events/calendarcall";
 
 const Page = () => {
   return (
