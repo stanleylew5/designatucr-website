@@ -61,7 +61,6 @@ const Page = () => {
             </Link>
           </div>
         </div>
-
         <Image
           src={DVBottom}
           alt="DVBottom"
