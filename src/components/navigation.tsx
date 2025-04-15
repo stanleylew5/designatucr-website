@@ -21,7 +21,7 @@ const Navbar = () => {
         >
           <Image
             src={DAU}
-            alt="design at ucr"
+            alt="DAU"
             className="w-16 duration-300 hover:opacity-60 md:w-20"
           />
         </Link>

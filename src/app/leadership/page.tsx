@@ -10,9 +10,9 @@ const Leadership = () => {
     >
       <p className="pt-8 text-center text-4xl font-bold">Leadership</p>
       <p className="my-8 text-xl font-semibold">Design At UCR Co-Presidents</p>
-      <Image src={Presidents} className="w-1/4 rounded-3xl" alt="Presidents" />
+      <Image src={Presidents} className="w-1/2 rounded-3xl" alt="Presidents" />
       <p className="my-8 text-xl font-semibold">DesignVerse Co-Directors</p>
-      <Image src={Directors} className="w-1/4 rounded-3xl" alt="Directors" />
+      <Image src={Directors} className="w-1/2 rounded-3xl" alt="Directors" />
     </div>
   );
 };

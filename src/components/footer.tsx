@@ -28,7 +28,11 @@ const Footer = () => {
     {
       title: "Resources",
       items: [
-        { name: "Resources", href: "/resources", target: "_self" },
+        {
+          name: "Resources",
+          href: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
+          target: "_self",
+        },
         {
           name: "Help Desk",
           href: "https://join.slack.com/t/designucr/shared_invite/zt-2xj8kwmno-70AftfRezUjjPjSNGcgI1Q",
