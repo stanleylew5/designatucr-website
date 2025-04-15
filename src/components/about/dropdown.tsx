@@ -32,7 +32,7 @@ const Dropdown = ({ alumniClass, cohort }: AlumniProps) => {
         {alumniClass.map(({ name, title }, index) => (
           <div
             key={index}
-            className="flex h-24 flex-col items-center justify-center rounded-2xl bg-white p-4 text-center shadow-lg"
+            className="flex flex-col items-center justify-center rounded-2xl bg-white p-4 text-center shadow-lg"
           >
             <p className="text-dau-primary-accent-100 text-lg font-medium">
               {name}

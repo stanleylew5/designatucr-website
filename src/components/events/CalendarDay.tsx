@@ -71,9 +71,9 @@ const CalendarDay = ({ date, events }: DayProps) => {
 
   return (
     <div
-      className={`flex aspect-[6/5] flex-col gap-y-[0.5vw] ${isToday ? "bg-dau-secondary-warm-100" : ""} `}
+      className={`flex aspect-[5/6] flex-col gap-y-[0.5vw] md:aspect-[6/5] ${isToday ? "bg-dau-secondary-warm-100" : ""} `}
     >
-      <p className="mt-[0.5px] mr-1 flex justify-end text-[1.5vw] md:text-[1vw]">
+      <p className="mt-[0.5px] mr-1 flex justify-end text-xs md:text-lg">
         {date.getDate()}
       </p>
 
