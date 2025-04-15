@@ -18,7 +18,7 @@ const Contacts = () => {
         </Link>
         and be sure to check us out on social media below!
       </p>
-      <div className="ml-2 grid grid-cols-2 gap-4 sm:grid-cols-2 md:ml-10 md:grid-cols-4">
+      <div className="ml-2 grid grid-cols-1 gap-4 sm:grid-cols-2 md:ml-10 md:grid-cols-4">
         {contacts.map((item, index) => (
           <Link
             key={index}

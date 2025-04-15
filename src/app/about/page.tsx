@@ -4,11 +4,11 @@ import Landing from "@/components/about/landing";
 
 const Page = () => {
   return (
-    <div>
+    <>
       <Landing />
       <Board />
       <Alumni />
-    </div>
+    </>
   );
 };
 

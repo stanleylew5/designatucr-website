@@ -31,7 +31,7 @@ const Sidebar = ({ scrollToSection }: SidebarProps) => {
 
   return (
     <div
-      className="fixed top-12 z-20 flex flex-row items-center md:top-1/2 md:left-0"
+      className="fixed top-12 z-20 hidden flex-row items-center md:top-1/2 md:left-0 md:flex"
       onMouseEnter={() => setExpanded(true)}
       onMouseLeave={() => setExpanded(false)}
     >

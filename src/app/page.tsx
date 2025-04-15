@@ -33,7 +33,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <>
       <Sidebar scrollToSection={scrollToSection} />
       <section ref={sections.landing}>
         <Landing />
@@ -50,7 +50,7 @@ const Home = () => {
       <section ref={sections.partnering}>
         <Partnering />
       </section>
-    </div>
+    </>
   );
 };
 

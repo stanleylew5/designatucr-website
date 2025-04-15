@@ -40,17 +40,17 @@ const CalendarEventPopover = ({
   return (
     <Popover>
       <PopoverTrigger className="bg-dau-secondary-200 flex w-full cursor-pointer justify-between text-left hover:opacity-75">
-        <span className="overflow-hidden px-1 text-[0.8vw] text-ellipsis whitespace-nowrap">
+        <span className="md:text-md overflow-hidden px-1 py-0 text-xs text-ellipsis whitespace-nowrap md:py-2">
           {title}
         </span>
         <span className="text-right text-[0.8vw]">
           {formattedStartHour}:{formattedStartMinutes}
         </span>
       </PopoverTrigger>
-      <PopoverContent className="w-[30vw] overflow-hidden rounded-xl p-0 shadow-md 2xl:w-[25vw]">
-        <div className="bg-dau-secondary-warm-100 grid grid-cols-4 border-b-2 px-4 py-2 text-[0.8vw] font-semibold">
+      <PopoverContent className="w-[70vw] overflow-hidden rounded-xl p-0 shadow-md md:w-[30vw] 2xl:w-[25vw]">
+        <div className="bg-dau-secondary-warm-100 grid grid-cols-5 border-b-2 px-4 py-2 text-[2.5vw] font-semibold">
           <p className="col-span-3">{title}</p>
-          <p className="flex justify-end">
+          <p className="col-span-2 flex justify-end">
             {date.toLocaleString("default", {
               month: "short",
               day: "numeric",
@@ -59,7 +59,7 @@ const CalendarEventPopover = ({
           </p>
         </div>
 
-        <div className="bg-white px-4 py-3 text-[0.8vw]">
+        <div className="bg-white px-4 py-3 text-[2.5vw]">
           <p>{location}</p>
           {hasStartTime && (
             <p className="mt-1">

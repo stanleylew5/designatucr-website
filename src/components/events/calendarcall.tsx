@@ -18,7 +18,6 @@ export type GoogleEventProps = {
   summary: string;
 };
 
-// What EventCard expects
 export interface EventCardProps {
   date: string;
   month: string;

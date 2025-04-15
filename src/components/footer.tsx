@@ -31,7 +31,7 @@ const Footer = () => {
         {
           name: "Resources",
           href: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
-          target: "_self",
+          target: "_blank",
         },
         {
           name: "Help Desk",
