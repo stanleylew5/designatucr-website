@@ -15,25 +15,31 @@ const Footer = () => {
     {
       title: "About",
       items: [
-        { name: "Meet the Board", href: "/about" },
-        { name: "Leadership", href: "/leadership" },
-        { name: "Join Us", href: "#" },
-        { name: "Site Design", href: "/engineering" },
+        { name: "Meet the Board", href: "/about", target: "_self" },
+        { name: "Leadership", href: "/leadership", target: "_self" },
+        {
+          name: "Join Us",
+          href: "https://forms.gle/6TNxvdXqkmjKKHsu9",
+          target: "_blank",
+        },
+        { name: "Site Design", href: "/engineering", target: "_self" },
       ],
     },
     {
       title: "Resources",
       items: [
-        { name: "Resources", href: "/resources" },
+        { name: "Resources", href: "/resources", target: "_self" },
         {
           name: "Help Desk",
           href: "https://join.slack.com/t/designucr/shared_invite/zt-2xj8kwmno-70AftfRezUjjPjSNGcgI1Q",
+          target: "_blank",
         },
         {
           name: "Design Pack",
           href: "https://join.slack.com/t/designucr/shared_invite/zt-2xj8kwmno-70AftfRezUjjPjSNGcgI1Q",
+          target: "_blank",
         },
-        { name: "Site Map", href: "/sitemap" },
+        { name: "Site Map", href: "/sitemap", target: "_self" },
       ],
     },
     {
@@ -42,16 +48,17 @@ const Footer = () => {
         {
           name: "General Meetings",
           href: "/events",
+          target: "_self",
         },
-        { name: "DesignVerse", href: "/designverse" },
-        { name: "DesignCo", href: "/designco" },
+        { name: "DesignVerse", href: "/designverse", target: "_self" },
+        { name: "DesignCo", href: "/designco", target: "_self" },
       ],
     },
     {
       title: "Get Involved",
       items: [
-        { name: "Apply", href: "https://forms.gle/6TNxvdXqkmjKKHsu9" },
-        { name: "Contact", href: "/contact" },
+        { name: "Apply", href: "https://forms.gle/6TNxvdXqkmjKKHsu9", target: "_blank" },
+        { name: "Contact", href: "/contact", target: "_self" },
       ],
     },
   ];
@@ -69,7 +76,7 @@ const Footer = () => {
             <p className="mb-4 text-lg font-semibold">{section.title}</p>
             <div className="flex flex-col space-y-2">
               {section.items.map((item, idx) => (
-                <Link href={item.href} className="hover:underline" key={idx}>
+                <Link href={item.href} className="hover:underline" key={idx} target={item.target} >
                   {item.name}
                 </Link>
               ))}

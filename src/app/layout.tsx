@@ -3,6 +3,7 @@ import { Sora } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
+import { ReactQueryClientProvider } from "@/utils/react-query";
 
 const sora = Sora({ subsets: ["latin"] });
 
@@ -21,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={sora.className}>
         <Navigation />
-        {children}
+        <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
         <Footer />
       </body>
     </html>
