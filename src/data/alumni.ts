@@ -83,7 +83,7 @@ export const alumni_25 = [
   { name: "Shiqi Zhou", title: "Finance" },
   { name: "Alyssa Uy", title: "Finance" },
   { name: "Satvika Palavelli", title: "Professional Development" },
-  { name: "Anjaline Singj", title: "Professional Development" },
+  { name: "Anjaline Singh", title: "Professional Development" },
   { name: "Shenonaa Jenith Kumar", title: "Industry Relations" },
   { name: "Stanley Lew", title: "Software Engineering" },
   { name: "Shirley Duong", title: "Marketing" },

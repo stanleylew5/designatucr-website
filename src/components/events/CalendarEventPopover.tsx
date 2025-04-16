@@ -48,7 +48,7 @@ const CalendarEventPopover = ({
         </span>
       </PopoverTrigger>
       <PopoverContent className="w-[70vw] overflow-hidden rounded-xl p-0 shadow-md md:w-[30vw] 2xl:w-[25vw]">
-        <div className="bg-dau-secondary-warm-100 grid grid-cols-5 border-b-2 px-4 py-2 text-[2.5vw] font-semibold">
+        <div className="bg-dau-secondary-warm-100 grid grid-cols-5 border-b-2 px-4 py-2 text-[2.5vw] font-semibold md:text-xl">
           <p className="col-span-3">{title}</p>
           <p className="col-span-2 flex justify-end">
             {date.toLocaleString("default", {
@@ -59,7 +59,7 @@ const CalendarEventPopover = ({
           </p>
         </div>
 
-        <div className="bg-white px-4 py-3 text-[2.5vw]">
+        <div className="bg-white px-4 py-3 text-[2.5vw] md:text-xl">
           <p>{location}</p>
           {hasStartTime && (
             <p className="mt-1">
