@@ -24,10 +24,18 @@ const WhoWeAre = () => {
           </Link>
         </div>
         <div className="flex justify-center">
-          <Image className="w-11/12 rounded-2xl" src={Events1} alt="Image" />
+          <Image
+            className="w-11/12 rounded-2xl 2xl:w-2/3"
+            src={Events1}
+            alt="Image"
+          />
         </div>
         <div className="order-4 flex justify-center md:order-3">
-          <Image className="w-11/12 rounded-2xl" src={Events2} alt="Image" />
+          <Image
+            className="w-11/12 rounded-2xl 2xl:w-2/3"
+            src={Events2}
+            alt="Image"
+          />
         </div>
         <div className="order-3 md:order-4">
           <p className="text-center md:text-left">
