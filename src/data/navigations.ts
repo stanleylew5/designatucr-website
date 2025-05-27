@@ -11,8 +11,9 @@ const navigations = [
   },
   {
     name: "Resources",
-    link: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
-    target: "_blank",
+    link: "/resources",
+    /* link: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
+    target: "_blank", */
   },
   {
     name: "Join",

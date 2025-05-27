@@ -1,42 +1,35 @@
-import AshleyTsai from "@/public/board/ashley_tsai.webp";
-import TianaNguyen from "@/public/board/tiana_nguyen.webp";
 import JonathanLim from "@/public/board/jonathan_lim.webp";
 import RichYueh from "@/public/board/rich_yueh.webp";
-import CeceJohnson from "@/public/board/cece_johnson.webp";
-import NatalieTrinh from "@/public/board/natalie_trinh.webp";
-import NatalieOropeza from "@/public/board/natalie_oropeza.webp";
+import ShirleyDuong from "@/public/board/shirley_duong.webp";
+import ValerieCheng from "@/public/board/valerie_cheng.webp";
+import SubahAwal from "@/public/board/subah_awal.webp";
 import AnjalineSingh from "@/public/board/anjaline_singh.webp";
-import MaliakaIscandari from "@/public/board/maliaka_iscandari.webp";
-import ShenonaaJenithKumar from "@/public/board/shenonaa_kumar.webp";
-import PeterLu from "@/public/board/peter_lu.webp";
-import CharleenChen from "@/public/board/charleen_chen.webp";
+import SatvikaPalavelli from "@/public/board/satvika_palavelli.webp";
+import ArielleHaryanto from "@/public/board/arielle_haryanto.webp";
 import SaanviDalal from "@/public/board/saanvi_dalal.webp";
-import AmandaMancia from "@/public/board/amanda_mancia.webp";
-import AngeliaTran from "@/public/board/angelia_tran.webp";
-import AngelineTran from "@/public/board/angeline_tran.webp";
-import SarahSha from "@/public/board/sarah_sha.webp";
 import AshnaPradhan from "@/public/board/ashna_pradhan.webp";
-import GarmanZhen from "@/public/board/garman_zhen.webp";
-import KaitlinChing from "@/public/board/kaitlin_ching.webp";
-import WinnieLin from "@/public/board/winnie_lin.webp";
+import JasmineTrinh from "@/public/board/jasmine_trinh.webp";
+import ShenonaaJenithKumar from "@/public/board/shenonaa_kumar.webp";
+import KaylieZhao from "@/public/board/kaylie_zhao.webp";
+import StanleyLew from "@/public/board/stanley_lew.webp";
 
-/* All current members are added to the list
- * Missing asseets for 3 members
- * TODO: get missing assets from members
- */
+// old headshot
+import KaitlinChing from "@/public/board/kaitlin_ching.webp";
+// not dau heashot
+import JohnZhou from "@/public/board/john_zhou.webp";
 
 const board = [
   {
-    name: "Ashley Tsai",
+    name: "Ashna Pradhan",
     position: "Co-President",
-    year: "2025",
-    img: AshleyTsai,
+    year: "2026",
+    img: AshnaPradhan,
   },
   {
-    name: "Tiana Nguyen",
+    name: "Saanvi Dalal",
     position: "Co-President",
-    year: "2025",
-    img: TianaNguyen,
+    year: "2026",
+    img: SaanviDalal,
   },
   {
     name: "Jonathan Lim",
@@ -51,28 +44,34 @@ const board = [
     img: RichYueh,
   },
   {
-    name: "Cece Johnson",
-    position: "VP of Internal Affairs",
+    name: "Kaegan Chee",
+    position: "VP of External Affairs",
     year: "2026",
-    img: CeceJohnson,
+    img: KaeganChee,
   },
   {
-    name: "Natalie Trinh",
-    position: "VP of Internal Affairs",
-    year: "2027",
-    img: NatalieTrinh,
+    name: "Lauren Chu",
+    position: "VP of External Affairs",
+    year: "2028",
+    img: LaurenChu,
   },
-  // {
-  //   name: "Ashley Nguyen",
-  //   position: "VP of Finance",
-  //   year: "2027",
-  //   img: AshleyNguyen,
-  // },
   {
-    name: "Natalie Oropeza",
+    name: "John Zhou",
     position: "VP of Finance",
-    year: "2025",
-    img: NatalieOropeza,
+    year: "2027",
+    img: JohnZhou,
+  },
+  {
+    name: "Alyssa Uy",
+    position: "VP of Finance",
+    year: "2028",
+    img: AlyssaUy,
+  },
+  {
+    name: "Satvika Palavelli",
+    position: "VP of Professional Development",
+    year: "2027",
+    img: SatvikaPalavelli,
   },
   {
     name: "Anjaline Singh",
@@ -81,82 +80,70 @@ const board = [
     img: AnjalineSingh,
   },
   {
-    name: "Maliaka Iscandari",
-    position: "VP of Professional Development",
-    year: "2025",
-    img: MaliakaIscandari,
-  },
-  {
     name: "Shenonaa Jenith Kumar",
     position: "VP of Industry Relations",
     year: "2026",
     img: ShenonaaJenithKumar,
   },
   {
-    name: "Peter Lu",
+    name: "Stanley Lew",
     position: "VP of Software Engineering",
-    year: "2024",
-    img: PeterLu,
+    year: "2026",
+    img: StanleyLew,
   },
   {
-    name: "Charleen Chen",
+    name: "Shirley Duong",
     position: "VP of Marketing",
     year: "2027",
-    img: CharleenChen,
+    img: ShirleyDuong,
   },
   {
-    name: "Saanvi Dalal",
+    name: "Valerie Cheng",
+    position: "VP of Marketing",
+    year: "2028",
+    img: ValerieCheng,
+  },
+  {
+    name: "Jasmine Trinh",
+    position: "VP of Marketing",
+    year: "2027",
+    img: JasmineTrinh,
+  },
+  {
+    name: "Subah Awal",
     position: "VP of Marketing",
     year: "2026",
-    img: SaanviDalal,
+    img: SubahAwal,
   },
   {
-    name: "Amanda Mancia",
-    position: "VP of Marketing",
-    year: "2025",
-    img: AmandaMancia,
-  },
-  {
-    name: "Angelia Tran",
-    position: "VP of Marketing",
-    year: "2025",
-    img: AngeliaTran,
-  },
-  {
-    name: "Angeline Tran",
-    position: "VP of External Affairs",
-    year: "2026",
-    img: AngelineTran,
-  },
-  {
-    name: "Sarah Sha",
+    name: "Arielle Haryanto",
     position: "DesignVerse Co-Director",
-    year: "2025",
-    img: SarahSha,
-  },
-  {
-    name: "Ashna Pradhan",
-    position: "DesignVerse Co-Director",
-    year: "2026",
-    img: AshnaPradhan,
-  },
-  {
-    name: "Garman Zhen",
-    position: "Project Manager",
-    year: "2025",
-    img: GarmanZhen,
+    year: "2027",
+    img: ArielleHaryanto,
   },
   {
     name: "Kaitlin Ching",
-    position: "Project Manager",
+    position: "DesignVerse Co-Director",
     year: "2026",
     img: KaitlinChing,
   },
   {
-    name: "Winnie Lin",
-    position: "Photographer",
-    year: "2025",
-    img: WinnieLin,
+    name: "Mindy Hoang",
+    position: "Project Manager",
+    year: "2027",
+    img: MindyHoang,
+  },
+  {
+    name: "Kaylie Zhao",
+    position: "Project Manager",
+    year: "2027",
+    img: KaylieZhao,
+  },
+  {
+    name: "Angeline Tran",
+    position: "Media Relations",
+    year: "2026",
+    img: AngelineTran,
   },
 ];
 export default board;
