@@ -89,7 +89,6 @@ const CalendarCall = () => {
           selected={date}
           onSelect={setDate}
           events={data.allEvents}
-          className="mx-[5%]"
         />
       )}
     </div>
