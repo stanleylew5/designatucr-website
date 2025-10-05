@@ -50,6 +50,7 @@ function Calendar({
   return (
     <div className="flex justify-center py-[5vh] md:py-[10vh]">
       <DayPicker
+        month={currentDate}
         showOutsideDays={showOutsideDays}
         formatters={{
           formatWeekdayName: (date) => {
@@ -68,7 +69,7 @@ function Calendar({
           nav_button: cn(""),
           nav_button_previous: "",
           nav_button_next: "",
-          table: "",
+          table: "w-full space-y-1",
           head_row:
             "flex bg-calendar mt-[2vw] text-center items-center justify-center w-[80vw]",
           head_cell:
