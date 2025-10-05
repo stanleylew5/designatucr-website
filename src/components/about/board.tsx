@@ -14,7 +14,7 @@ const Board = () => {
           <BoardCard key={index} name={name} position={position} img={img} />
         ))}
       </div>
-      <div className="relative flex flex-col items-center justify-center font-semibold md:py-32">
+      <div className="relative flex flex-col items-center justify-center pt-[5vh] font-semibold md:pt-[50vh]">
         <Image
           src={Geometric}
           alt="Geometric"

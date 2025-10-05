@@ -12,11 +12,13 @@ import JasmineTrinh from "@/public/board/jasmine_trinh.webp";
 import ShenonaaJenithKumar from "@/public/board/shenonaa_kumar.webp";
 import KaylieZhao from "@/public/board/kaylie_zhao.webp";
 import StanleyLew from "@/public/board/stanley_lew.webp";
-
+import JohnZhou from "@/public/board/john_zhou.webp";
+import AngelineTran from "@/public/board/angeline_tran.webp";
+import KaeganChee from "@/public/board/kaegan_chee.webp";
+import LaurenChu from "@/public/board/lauren_chu.webp";
+import AlyssaUy from "@/public/board/alyssa_uy.webp";
 // old headshot
 import KaitlinChing from "@/public/board/kaitlin_ching.webp";
-// not dau heashot
-import JohnZhou from "@/public/board/john_zhou.webp";
 
 const board = [
   {
@@ -127,12 +129,12 @@ const board = [
     year: "2026",
     img: KaitlinChing,
   },
-  {
+  /*   {
     name: "Mindy Hoang",
     position: "Project Manager",
     year: "2027",
     img: MindyHoang,
-  },
+  }, */
   {
     name: "Kaylie Zhao",
     position: "Project Manager",
