@@ -89,6 +89,7 @@ const CalendarCall = () => {
           selected={date}
           onSelect={setDate}
           events={data.allEvents}
+          className="w-11/12 md:w-10/12"
         />
       )}
     </div>
