@@ -71,7 +71,7 @@ function Calendar({
           nav_button_next: "",
           table: "w-full space-y-1",
           head_row:
-            "flex bg-calendar mt-[2vw] text-center items-center justify-center w-[80vw]",
+            "flex bg-calendar mt-[2vw] text-center items-center justify-center grid grid-cols-7",
           head_cell:
             "flex justify-evenly w-full font-light text-black !font-bold",
           row: "grid grid-cols-7",
