@@ -1,4 +1,3 @@
-import JonathanLim from "@/public/board/jonathan_lim.webp";
 import RichYueh from "@/public/board/rich_yueh.webp";
 import ShirleyDuong from "@/public/board/shirley_duong.webp";
 import ValerieCheng from "@/public/board/valerie_cheng.webp";
@@ -17,8 +16,8 @@ import AngelineTran from "@/public/board/angeline_tran.webp";
 import KaeganChee from "@/public/board/kaegan_chee.webp";
 import LaurenChu from "@/public/board/lauren_chu.webp";
 import AlyssaUy from "@/public/board/alyssa_uy.webp";
-// old headshot
-import KaitlinChing from "@/public/board/kaitlin_ching.webp";
+import CharleenChen from "@/public/board/charleen_chen.webp";
+import KaitlinChing from "@/public/board/kaitlin.webp";
 
 const board = [
   {
@@ -32,12 +31,6 @@ const board = [
     position: "Co-President",
     year: "2026",
     img: SaanviDalal,
-  },
-  {
-    name: "Jonathan Lim",
-    position: "Advisor",
-    year: " ",
-    img: JonathanLim,
   },
   {
     name: "Rich Yueh",
@@ -140,6 +133,12 @@ const board = [
     position: "Project Manager",
     year: "2027",
     img: KaylieZhao,
+  },
+  {
+    name: "Charleen Chen",
+    position: "Project Manager",
+    year: "2027",
+    img: CharleenChen,
   },
   {
     name: "Angeline Tran",
