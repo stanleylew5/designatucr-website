@@ -92,7 +92,7 @@ export const alumni_25 = [
   { name: "Subah Awal", title: "Marketing" },
   { name: "Arielle Haryanto", title: "Co-Director" },
   { name: "Kaitlin Ching", title: "Co-Director" },
-  { name: "Mindy Hoang", title: "Project Manager" },
+  { name: "Charleen Chen", title: "Project Manager" },
   { name: "Kaylie Zhao", title: "Project Manager" },
   { name: "Angeline Tran", title: "Media Relations" },
 ];
