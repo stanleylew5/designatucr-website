@@ -4,7 +4,7 @@ import "./globals.css";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
 import { ReactQueryClientProvider } from "@/utils/react-query";
-
+import { Analytics } from "@vercel/analytics/next";
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -24,6 +24,7 @@ export default function RootLayout({
         <Navigation />
         <ReactQueryClientProvider>{children}</ReactQueryClientProvider>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
