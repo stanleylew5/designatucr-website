@@ -26,7 +26,7 @@ const Board = () => {
           className="border-earth z-10 mx-auto w-10/12 rounded-2xl border-2"
         />
         <p className="text-dau-primary-warm-400 py-8 text-center md:text-2xl 2xl:text-4xl">
-          2024-2025
+          2025-2026
         </p>
       </div>
     </div>
