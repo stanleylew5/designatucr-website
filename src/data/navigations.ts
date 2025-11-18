@@ -9,15 +9,15 @@ const navigations = [
     link: "/events",
     // target: "_blank",
   },
-  {
+  /* {
     name: "Resources",
     link: "/resources",
-    /* link: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
-    target: "_blank", */
-  },
+    link: "https://airtable.com/appkMhj4uheYOF8LG/shrNK84HAE6F0YSiT",
+    target: "_blank",
+  }, */
   {
     name: "Join",
-    link: "https://forms.gle/6TNxvdXqkmjKKHsu9",
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSc0XVHZXqYMlJQrXaftN92cWTJFgOEC6GRdJ6dIZwwo4PUSAw/viewform",
     target: "_blank",
   },
   {
