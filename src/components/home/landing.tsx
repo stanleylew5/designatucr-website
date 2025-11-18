@@ -19,7 +19,7 @@ const Landing = () => {
       <div className="z-20 flex flex-col items-center justify-center gap-4 md:flex-row">
         <Link
           className="bg-dau-primary-cool-300 hover:bg-dau-primary-cool-500 flex w-48 items-center justify-center rounded-full py-4 text-lg font-medium text-white shadow-md transition duration-300 hover:scale-105"
-          href="https://forms.gle/6TNxvdXqkmjKKHsu9"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSc0XVHZXqYMlJQrXaftN92cWTJFgOEC6GRdJ6dIZwwo4PUSAw/viewform"
         >
           Join Us
         </Link>
