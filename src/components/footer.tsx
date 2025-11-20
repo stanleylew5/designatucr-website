@@ -19,7 +19,7 @@ const Footer = () => {
         { name: "Leadership", href: "/leadership", target: "_self" },
         {
           name: "Join Us",
-          href: "https://forms.gle/6TNxvdXqkmjKKHsu9",
+          href: "https://docs.google.com/forms/d/e/1FAIpQLSc0XVHZXqYMlJQrXaftN92cWTJFgOEC6GRdJ6dIZwwo4PUSAw/viewform",
           target: "_blank",
         },
         { name: "Site Design", href: "/engineering", target: "_self" },
