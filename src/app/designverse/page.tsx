@@ -8,7 +8,7 @@ const Page = () => {
     <div className="relative">
       <div className="from-dv-primary-green-100 to-dau-secondary-warm-50 flex min-h-screen w-full flex-col justify-between bg-gradient-to-b bg-cover bg-bottom bg-no-repeat pb-[400px]">
         <Image src={HalfCloud} className="mt-10 w-1/6" alt="HalfCloud" />
-        <div className="mx-auto w-11/12">
+        <div className="z-40 mx-auto w-11/12">
           <div className="flex justify-between">
             <p className="text-dv-primary-green-200 mt-10 text-5xl font-extrabold md:text-7xl">
               What is{" "}
@@ -46,16 +46,18 @@ const Page = () => {
             </p>
           </div>
 
-          <div className="z-10 mt-5 flex flex-col md:flex-row">
+          <div className="mt-5 flex flex-col md:flex-row">
             <Link
-              href="https://www.designverseucr.org/form/participant"
-              className="bg-bgForest rounded-full border-2 border-white px-12 py-4 text-center text-xl font-bold text-white"
+              href="https://minerva-sage.vercel.app/designverse/forms/participant"
+              className="bg-bgForest rounded-full border-2 border-white px-12 py-4 text-center text-xl font-bold text-white hover:scale-105"
+              target="_blank"
             >
               Sign Up
             </Link>
             <Link
               href="https://www.designverseucr.org/"
-              className="bg-bgMandy mt-4 ml-0 rounded-full border-2 border-white px-12 py-4 text-center text-xl font-bold text-white md:mt-0 md:ml-5"
+              className="bg-bgMandy mt-4 ml-0 rounded-full border-2 border-white px-12 py-4 text-center text-xl font-bold text-white hover:scale-105 md:mt-0 md:ml-5"
+              target="_blank"
             >
               Learn More
             </Link>
